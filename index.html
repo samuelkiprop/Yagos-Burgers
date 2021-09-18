@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title"  content="Yagos Burger and Chicken">
+        <meta propert="og:image" content="burger.png">
+        <!--TODO: find better photo-->
+        <title>Yagos Burger and Chicken</title>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="yagos.css">
+        <script src="index.js"></script>
+    </head>
+    <body class="container" style="background-color: #e8ceb6;">
+        <div class="mobile-nav">
+            <!--TODO: make this work-->
+            <nav class="links-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#dishes">Dishes</a></li>
+                <li><a href="#dinning">Dinning</a></li>
+                <li><a href="#menu">Menu></a></li>
+                <li><a href="#footer">Contact</a></li>
+            </nav>
+            <button class="hamburger">menu</button>
+        </div>
+        <header id="home">
+            <div class="header">
+                <nav class="nav">
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;"><a href="#dishes" class="nav__link">Dishes</a></li>
+                    <img src=logo.png height="69" width="69">
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;"><a href="#dinning" class="nav__link">Dinning</a></li>
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;">
+                        <div id="menu" class="dropdown">
+                            <div class="nav__link">Menu</div>
+                            <div class="dropdown-content">
+                                <ul><a href="burger-menu.pdf">Burgers</a></ul>
+                                <ul></ul><a href="wraps-menu.pdf">Wraps</a></ul>
+                                <ul></ul><a href="crunches-menu.pdf">Crunches</a></ul>
+                            </div>
+                        </div>
+                    </li>    
+                    <li class="nav__list" style="transform: translate(0px, 0px); opacity: 1;"><a href="#footer" class="nav__link">Contact</a></li>
+                </nav>
+                <div class="burger jump" style="opacity: 1;"> <img src="burger-img.a506708b.png" alt="burger" class="burger__img"> </div>
+                <div class="hero-text" style="opacity: 1; transform: translate(0px, 0px);">
+                    <span>deal of the week<span> 
+                    <h1>Double sized<br>Burger</h1>
+                </span></span></div>
+                <img src="sauce.c2e3791c.png" alt="tomatoe sauce" class="sauce" style="opacity: 1; transform: translate(0px, 0px);">
+                <h1 class="discount" style="opacity: 1; transform: translate(0px, 0px);">10%<span>discount</span></h1>
+                <button href="tel:+254750306736" class="cta" style="opacity: 1; transform: translate(0px, 0px);">book a table</button>
+                <div class="copy" style="opacity: 1; transform: translate(0px, 0px);"> <p>The best<br>burger joint</p> <h4>in Eldoret.</h4></div>
+            </div>
+        </header>
+        
+        <section id="about" class="about">
+            <img src="about-img.be6bdb7f.png" alt="about image" class="about__img">
+            <div class="about__content" style="transform: translate(0%, 5%);">
+                <h2 class="heading-2">ABOUT US</h2>
+                <h3 class="heading-3">WE HAVE THE MOST DELICIOUS BURGERS IN ELDORET</h3>
+                <p class="paragraph">Enjoy awesam and affordable food packages & drinks at any time from YAGOS BURGER AND CHICKEN. Pay us a visit at Kim's plaza First Floor Room 13 along Oginga Odinga Street or contact us and we will deliver your order within or outside Eldoret town. <br><br><strong>Any Time is Yagos Time</strong> 🍔</p>
+            </div>
+        </section>
+
+        <section id="dishes" class="dishes">
+            <div class="pin-spacer" style="flex-shrink: 1; display: block; margin: 0px; inset: auto; position: relative; overflow: visible; box-sizing: border-box; width: 100%; height: 600px; padding: 0px 0px 509px;">
+                <div class="dishes__wrapper" style="transform: translate3d(0px, 0px, 0px); inset: 0px auto auto 0px; margin: 0px; width: auto; height: 509px; padding: 0px;">
+                    <h2 class="heading-2">Our Favourite Dishes</h2>
+                    <div class="dishes__box">
+                        <div class="dishes-card" style="transform: translate(0px, 0px);">
+                            <h3 class="dishes-card__heading">Yagos<br>Burger</h3>
+                            <img src="burger.png" alt="burger" class="dishes-card__img">
+                            <h5 class="dishes-card__tag">BURGER / FRIES / SODA</h5>
+                            <div class="dishes-card__cta">
+                                <h4 class="dishes-card__price">$20</h4>
+                                <button href="tel:+254750306736">order now</button>
+                            </div>
+                        </div>
+                        <div class="dishes-card" style="transform: translate(0px, 0px);">
+                            <h3 class="dishes-card__heading">Sticky Seasoned<br>Fries</h3>
+                            <img src="seasoned-fries.png" alt="fries" class="dishes-card__img">
+                            <h5 class="dishes-card__tag">FRIES / SEASONED SAUCE / SODA</h5>
+                            <div class="dishes-card__cta">
+                                <h4 class="dishes-card__price">$15</h4>
+                                <button href="tel:+254750306736">order now</button>
+                            </div>
+                        </div>
+                        <div class="dishes-card" style="transform: translate(0px, 0px);">
+                            <h3 class="dishes-card__heading">Chicken Wrap<br>+ Cheese / Ham</h3>
+                            <img src="chicken-wrap.png" alt="wraps" class="dishes-card__img">
+                            <h5 class="dishes-card__tag">Chicken wrap / Cheese / Ham</h5>
+                            <div class="dishes-card__cta">
+                                <h4 class="dishes-card__price">$35</h4>
+                                <button href="tel:+254750306736">order now</button>
+                            </div>
+                        </div>
+                        <div class="dishes-card" style="transform: translate(0px, 0px);">
+                            <h3 class="dishes-card__heading">Yagos<br>Burger</h3>
+                            <img src="burger.png" alt="burger" class="dishes-card__img">
+                            <h5 class="dishes-card__tag">BURGER / FRIES / SODA</h5>
+                            <div class="dishes-card__cta">
+                                <h4 class="dishes-card__price">$20</h4>
+                                <button href="tel:+254750306736">order now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dinning" class="dinning">
+            <div class="dinning__content" style="transform: translate(0%, 5%);">
+                <h2 class="heading-2">Ultimate Dinning Experience Like <br>No Other</h2>
+                <h6 class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, animi. Voluptas perspiciatis assumenda necessitatibus quia totam sapiente hic magnam error neque, sint nostrum expedita facere provident, repellendus ut quisquam rerum.</h6>
+                <button  style="background:#a88a6e;" class="cta">book a table</button>
+            </div>
+            <img src="dinning-img.486d78f4.png" alt="dinning image" class="dinning__img">
+        </section>
+
+        <section id="reviews" class="reviews" style="background:#a88a6e; width:100%">
+            <div class="client-box">
+                <h2>What Our<br>Clients Say</h2>
+            </div>
+            <div class="review-box review-box--1">
+                <div class="details">
+                    <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid cumque voluptatum id modi maiores voluptates tenetur soluta autem tempora possimus mollitia reprehenderit, quia alias in ex sapiente est unde non.</p>
+                    <div class="client-profile">
+                        <img class="client-photo" src="cus-1.db2e602d.png" alt="Sam" height="69"; width="auto">
+                        <div class="username">
+                            <h4>Sam</h4>
+                            <h6>ceo, aweSAM</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box review-box--2">
+                <div class="details">
+                    <p class="paragraph"><h5>In Eldoret Looking For The Perfect Burger? Try Yagos Burger</h5><br>There's something so fulfilling about eating a good burger. The taste of the juicy, flavorful patty cushioned in the lovely embrace of crunchy veggies, zingy sauces, and soft buns. Better yet, if there is some cheese slowly dripping down the patty. It tastes like perfection. There are plenty of burger joints in Eldoret, fancy ones like Big Square and affordable ones like Eldo Grill. Still, none surpasses Yagos Burger and Chicken. Happy to announce our quest for the perfect burger is over.<strong>Yagos burgers, are it!</strong></p>
+                    <a href="https://www.eldoretleo.com/eldoret-yagos-burger/">
+                        <div class="client-profile">
+                            <img class="client-photo"src="cus-2.cd59c1fe.png" alt="Sam" height="90"; width="auto">
+                            <div class="username">
+                                <h4>Eldoret leo</h4>
+                                <h6>The Champions Speak</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="review-box review-box--3">
+                <div class="details">
+                    <p class="paragraph">Awesome Customer Service with Excellent Burgers<br><span style="background-color: #a88a6e;">⭐⭐⭐⭐⭐</span></p>
+                    <div class="client-profile">
+                        <img class="client-photo" src="cus-3.232b514c.png" alt="Sam" height="72"; width="auto">
+                        <div class="username">
+                            <h4>Karim Kanji</h4>
+                            <h6>Founder, Cryosoft Corporation</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--TODO: add photos from facebook to 3*3 gallery section-->
+
+        <footer id="footer" class="footer">
+            <div class="footer__wrapper">
+                <div class="about-brand">
+                    <img src="logo.png" alt="Yagos logo" class="logo">
+                </div>
+                <div class="opening-hours">
+                    <h3 class="heading-3">opening hours</h3>
+                    <h5 class="heading-5">Mon  -  Sat: 9 am - 7 pm<br><br>Sun: 12:30pm - 6pm<br><br>(Applies to deliveries too)</h5>
+                </div>
+                <div class="contact-info">
+                    <h3 class="heading-3">Contact Info</h3>
+                    <h5 class="heading-5">+254750306726<br><br>Kim's plaza First Floor Room 13<br><br>along Oginga Odinga Street<br><br>yagosburgerchicken@gmail.com</h5>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
