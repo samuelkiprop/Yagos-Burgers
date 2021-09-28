@@ -78,11 +78,14 @@ body{font-family:Sailec-Regular,sans-serif;font-size:1.6rem;background-color:#e8
 
 .mobile-nav .links-nav{background-color:#e8ceb6;padding:4rem;transform:translateY(-100%);width:100vw;height:100vh;position:absolute;z-index:-4;transition:all 1s ease}
 
-.mobile-nav .links-nav li{list-style:none;padding:3rem}
+.mobile-nav .links-nav li{list-style:none;padding:1.8rem}
 
 .mobile-nav .links-nav a{text-decoration:none;color:#000;text-transform:capitalize;transition:all .1s ease;font-size:3rem;text-transform:uppercase;letter-spacing:2px}
 
-.mobile-nav .links-nav a:hover{padding-bottom:5px;border-bottom:3px solid #e31b0e}@media only screen and (max-width:46.875em){.mobile-nav{opacity:1;visibility:visible}}
+.mobile-nav .links-nav a:hover{padding-bottom:5px;border-bottom:3px solid #a88a6e}@media only screen and (max-width:46.875em){.mobile-nav{opacity:1;visibility:visible}}
+
+.mobile-nav .links-nav li ul a{list-style:none;color: #a88a6e}
+
 
 .openNav .links-nav{transform:translateY(0)}
 
