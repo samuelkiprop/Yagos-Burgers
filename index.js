@@ -1,6 +1,3 @@
-// gsap animation and scrolltrigger
-import { gsap, ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(ScrollTrigger); 
 
 //import css file
 import "yagos.css";
